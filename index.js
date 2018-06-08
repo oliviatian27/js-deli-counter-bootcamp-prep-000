@@ -17,7 +17,7 @@ function currentLine(katzDeli){
   var em=[];
   if (katzDeli.length>0){
     for (var i=0;i<katzDeli.length;i++){
-     em.push((i+1)+'. '+katzDeli[i])
+     em.push(' '+(i+1)+'. '+katzDeli[i])
     }
    return "The line is currently: "+em
   }else{
