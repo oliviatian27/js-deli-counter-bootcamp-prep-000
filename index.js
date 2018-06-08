@@ -3,6 +3,6 @@ var num
 function takeANumber(katzDeli,customer){
   katzDeli.push(customer);
   num=katzDeli.indexOf(customer);
-  return 'Welcome, ${customer}. You are number ${num} in line.'
+  return 'Welcome, '+String(customer)+''. You are number '+String(num) in line.'
  
 }
