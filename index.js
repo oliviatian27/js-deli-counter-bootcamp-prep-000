@@ -1,2 +1,4 @@
 var katzDeli = [];
-function takeAnumber()
+function takeAnumber(katzDeli,customer){
+  
+}
