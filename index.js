@@ -4,7 +4,7 @@ function takeANumber(katzDeli,customer){
   var num=katzDeli.indexOf(customer)+1;
   return 'Welcome, '+customer+'. You are number '+num+' in line.'
 }
-function nowServing(){
+function nowServing(katzDeli){
   if (katzDeli.length>0){
     var now=katzDeli[0]
     katzDeli.shift()
