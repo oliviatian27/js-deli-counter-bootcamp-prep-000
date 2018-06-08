@@ -8,7 +8,7 @@ function nowServing(){
   if (katzDeli.length>0){
     var now=katzDeli[0]
     katzDeli.shift()
-    
+    return ''
   }
     
 }
