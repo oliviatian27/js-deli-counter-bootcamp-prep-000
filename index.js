@@ -14,5 +14,10 @@ function nowServing(katzDeli){
   }
 }
 function currentLine(katzDeli){
+  if (katzDeli.length>0){
+    for (var i=0,i<katzDeli.length,i++){
+      return 
+    }
+  }
   
 }
