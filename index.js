@@ -2,7 +2,7 @@ var katzDeli = [];
 var num
 function takeANumber(katzDeli,customer){
   katzDeli.push(customer);
-  num=katzDeli.indexOf(customer);
-  return 'Welcome, '+String(customer)+''. You are number '+String(num) in line.'
+  num=katzDeli.indexOf(customer)+1;
+  return 'Welcome, '+customer+'. You are number '+num+' in line.'
  
 }
