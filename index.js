@@ -12,5 +12,4 @@ function nowServing(katzDeli){
   } else{
     return 'There is nobody waiting to be served!'
   }
-    
 }
