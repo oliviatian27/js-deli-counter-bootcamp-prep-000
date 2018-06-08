@@ -1,1 +1,2 @@
 var katzDeli = [];
+function takeAnumber
