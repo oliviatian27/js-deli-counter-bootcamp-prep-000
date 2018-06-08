@@ -13,3 +13,4 @@ function nowServing(katzDeli){
     return 'There is nobody waiting to be served!'
   }
 }
+function currentLine
