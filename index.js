@@ -10,7 +10,7 @@ function nowServing(){
     katzDeli.shift()
     return 'Currently serving '+now+'.'
   } else{
-    return "There is nobody waiting to be served!"
+    return 'There is nobody waiting to be served!'
   }
     
 }
