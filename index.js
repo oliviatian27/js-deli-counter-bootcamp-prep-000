@@ -19,7 +19,7 @@ function currentLine(katzDeli){
       var str="The line is currently: "
       str+=((i+1)+'. '+katzDeli[i]+',')
     }
-    return str
+   return str
   }else{
     return "The line is currently empty."
   }
